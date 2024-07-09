@@ -1,0 +1,55 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header.jumbotron {
+    background: url('../img/hospital-background.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+
+.card img {
+    object-fit: cover;
+    height: 200px;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+footer .bi {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #555;
+}
+
+footer .bi:hover {
+    color: #007bff;
+}
+
+header.jumbotron {
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+}
+
+section.container {
+    padding: 60px 0;
+}
+
+ul.list-group {
+    margin-top: 20px;
+}
+
+ul.list-group-item {
+    background-color: #f8f9fa;
+    border: none;
+}
+
+ul.list-group-item strong {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}

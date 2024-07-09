@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio del Hospital de Animales.">
+    <meta name="keywords" content="Hospital de Animales, Veterinaria, Salud Animal">
+    <title>Hospital de Animales</title>
+    <link rel="icon" href="img/logo.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.7.2/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Barra de Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Logo" width="30" height="30"> Hospital de Animales 911</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="consulta-general.html">Consulta General</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cirugia.html">Cirugía</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="vacunacion.html">Vacunación</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="colaboradora.html">Colaboradora</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#servicios">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sección Principal -->
+    <header class="jumbotron text-center" style="background-image: url('img/hospital.jpg'); background-size: cover; color: white;">
+        <h1 class="display-4">Bienvenidos al Hospital de Animales</h1>
+        <p class="lead">Cuidando a tus mascotas con dedicación y amor.</p>
+    </header>
+
+    <!-- Carrusel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://img.freepik.com/fotos-premium/logotipo-hospital-veterinario_818056-3891.jpg" class="d-block w-100" alt="Hospital 1">
+            </div>
+            <div class="carousel-item">
+                <img src="https://img.freepik.com/fotos-premium/hospital-animales_818056-3895.jpg" class="d-block w-100" alt="Hospital 2">
+            </div>
+            <div class="carousel-item">
+                <img src="https://estaticos-cdn.prensaiberica.es/clip/e8617451-8cb3-4808-b222-ee7d524de307_16-9-aspect-ratio_default_0.jpg" class="d-block w-100" alt="Hospital 3">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+        </a>
+    </div>
+
+    <!-- Sección de Servicios -->
+    <section id="servicios" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Nuestros Servicios</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="https://cdn.gencraft.com/prod/user/cf3f9f6e-82f6-4a5e-beb9-39eacefc9444/80800fb3-d117-4231-9fba-57fc8024d925/image/image0_0.jpg?Expires=1720584191&Signature=GC8I5d4vaLJbH1ULgUCtr3w0xVlvPbgUfsBb2TeFZLQu8m7p9CLmHRjFhELnGH~cxeuRlMxaQXGvqJ-kmXwEDstIb0FvSKfAp0Kh3o91fE5bOluHaiosFsGF6TkYVhar3L6O7xSxqKPKrhYFb43T0u9q~UvGOClyYYbfy8j0ET4TRBy0ARyFvl7HEotcrseC09LSZKu5x6RglwmAwyycoMV8IGK9y2kCWM7WL-E6n8bsHXCmT34QhxKrcRTmrZOU4rBWSrkmXqzWCQODhX4MMb4JQnTyZ9yKyaDHYued6HeBl48WkYtX50KHIVQKtw0doPgvJ2PS7EfxFSeFs-ayNw__&Key-Pair-Id=K3RDDB1TZ8BHT8" class="card-img-top" alt="Servicio 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Consulta General</h5>
+                            <p class="card-text">La consulta general es el primer paso fundamental en el cuidado de la salud de tus mascotas. Nuestro equipo de veterinarios altamente capacitados y apasionados por los animales está dedicado a proporcionar un diagnóstico integral y un plan de tratamiento adecuado para garantizar el bienestar de tu mascota.</p>
+                            <a href="consulta-general.html" class="btn btn-primary">Más Información</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="https://cdn.gencraft.com/prod/user/cf3f9f6e-82f6-4a5e-beb9-39eacefc9444/fba42428-8758-4d65-b5b3-091fbf43e5ba/image/image1_0.jpg?Expires=1720583736&Signature=cyGlF8CkuqN61vcjZ1iCiPdC6HZ2m6OHYThLf3SLuqaD~cCHEj5eob~Nb8Q5DRm6TiVotB2If5WR961Qfh-E~OervtUqYxnLGog35VRXpMti2aW1hchxaBamovM5ygbzbSrHfeJUtrG~5ufxCjZBVV4P7GPlTHE2rOPZOARCni7yO2lwDhmh7UQO4R8tYCNsUbGV-lqAqFhXcoGOk~alq4SAXBVSLS6h1aHvXDXCJvmkIhXyJ~jhyz8MfDnLfv4bHpXlmsau4OhqYTle~NUadAhdJetDzoJze9UDEa0xTTkbgBoUV3t8~WTJSKF~abFciUveL7eOCUYfik3kCCesKA__&Key-Pair-Id=K3RDDB1TZ8BHT8" class="card-img-top" alt="Servicio 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Cirugía</h5>
+                            <p class="card-text">En nuestro hospital de animales, ofrecemos un servicio completo de cirugía veterinaria diseñado para tratar una amplia variedad de condiciones médicas y quirúrgicas en tus mascotas. Nuestro equipo de cirujanos veterinarios está altamente capacitado y utiliza técnicas avanzadas y equipos de última generación para asegurar que cada procedimiento quirúrgico sea seguro y efectivo.</p>
+                            <a href="cirugia.html" class="btn btn-primary">Más Información</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="https://cdn.gencraft.com/prod/user/cf3f9f6e-82f6-4a5e-beb9-39eacefc9444/c522fdb5-14c2-4f96-835c-62928d4b8b1d/image/image0_0.jpg?Expires=1720584123&Signature=Fv3~bZRTwftsZNPhoHxWGo28LqFhulvM4MJlIDEoFqqu4Eu-KwMxXfS-pYIrAWuT-XjIqid4D0o3~4jTifqsKcG9dXUiQjB7sXFzB~vLUQ3UfP6aZOU669RNjGT-7~MTtq~V5yd~44ly~mmLngYhPuMjm5dXf~F4QgFj-n-4umRdaeYvnxltxJpJjaLktR9fj-llPTfcnuvpMFsdHGkoQidsm5xY0XVYPBmIIF5C7onFUVdzN6agBSIMAMsAIHdNiocThBSXEWJc4O3-qSQAr6fEwyhM7a9xgIgFIA1O2s90n4-kyfr8Z8mohH9UrItz9TlykqUGAnKiWdLj6Hx1Gw__&Key-Pair-Id=K3RDDB1TZ8BHT8" class="card-img-top" alt="Servicio 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Vacunación</h5>
+                            <p class="card-text">La vacunación es un componente esencial en el cuidado preventivo de la salud de tus mascotas. En nuestro hospital de animales, ofrecemos un servicio completo de vacunación diseñado para proteger a tus mascotas contra diversas enfermedades infecciosas potencialmente mortales. Nuestro equipo de veterinarios está comprometido a mantener a tu mascota sana y segura a través de un programa de vacunación personalizado.</p>
+                            <a href="vacunacion.html" class="btn btn-primary">Más Información</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center">Contáctenos</h2>
+            <form id="contactForm">
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputNombre">Nombre</label>
+                        <input type="text" class="form-control" id="inputNombre" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputEmail">Email</label>
+                        <input type="email" class="form-control" id="inputEmail" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputMensaje">Mensaje</label>
+                    <textarea class="form-control" id="inputMensaje" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-4">
+        <div class="container">
+            <p>Síguenos en nuestras redes sociales:</p>
+            <a href="https://www.facebook.com/chadik.faneitepuello.9" class="bi bi-facebook"></a>
+            <a href="#" class="bi bi-twitter"></a>
+            <a href="https://www.instagram.com/chadik1/" class="bi bi-instagram"></a>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
+
