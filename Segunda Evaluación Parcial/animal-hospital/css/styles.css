@@ -53,3 +53,22 @@ ul.list-group-item strong {
     font-size: 1.1em;
     margin-bottom: 5px;
 }
+
+footer {
+    background-color: #333;
+    color: #e0e0e0;
+    padding: 20px 0;
+}
+footer h5 {
+    color: #ffffff;
+}
+footer a {
+    color: #e0e0e0;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+footer .embed-responsive {
+    margin-top: 10px;
+}

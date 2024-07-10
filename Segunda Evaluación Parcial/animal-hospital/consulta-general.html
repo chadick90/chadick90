@@ -11,6 +11,7 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.7.2/font/bootstrap-icons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/dark-mode.css">
 </head>
 <body>
 
@@ -35,10 +36,16 @@
                     <a class="nav-link" href="vacunacion.html">Vacunación</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="colaboradora.html">Colaboradora</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="#servicios">Servicios</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <button class="btn btn-outline-secondary" id="toggle-dark-mode">Modo Oscuro</button>
                 </li>
             </ul>
         </div>
@@ -80,19 +87,45 @@
     </section>
 
     <!-- Footer -->
-    <footer class="text-center py-4">
-        <div class="container">
+<footer class="text-center py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h5>Política de Privacidad</h5>
+                <p><a href="politica-privacidad.html" class="text-light">Leer nuestra política de privacidad</a></p>
+            </div>
+            <div class="col-md-4">
+                <h5>Ubicación</h5>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d473.00211826426073!2d-69.94829722339327!3d18.482891586901296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf89f3e773663f%3A0xa3bb56c811320c39!2sCl%C3%ADnica%20Veterinaria%20UNPHU!5e0!3m2!1ses-419!2sdo!4v1720646309930!5m2!1ses-419!2sdo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>" width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h5>Video de Animales</h5>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/o0immv9uhtw?si=M5mGQvR9jp7h1ASY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="mt-4">
             <p>Síguenos en nuestras redes sociales:</p>
             <a href="#" class="bi bi-facebook"></a>
             <a href="#" class="bi bi-twitter"></a>
             <a href="#" class="bi bi-instagram"></a>
         </div>
-    </footer>
+    </div>
+</footer>
+
 
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
+    <script>
+        document.getElementById('toggle-dark-mode').addEventListener('click', function () {
+            document.body.classList.toggle('dark-mode');
+        });
+    </script>
 </body>
 </html>
